@@ -1,0 +1,22 @@
+    s Form extends Component {
+
+  render() {
+
+    return (
+      <div>
+        <div id="apply_form">
+          <a name="form" id="formAnchor"></a>
+          <script type="text/javascript" src="https://fs22.formsite.com/include/form/embedManager.js?1605047845"></script>
+          <script type="text/javascript">
+          EmbedManager.embed({
+            key: "key",
+            width: "100%",
+            mobileResponsive: true
+          });
+          </script>
+        </div>
+      </div>
+    );
+  }
+}
+Converting coins
